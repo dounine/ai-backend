@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dounine/ai-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dounine/ai-backend/issues"
+  },
+  "homepage": "https://github.com/dounine/ai-backend#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.4.0",
+    "koa-router": "^12.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
